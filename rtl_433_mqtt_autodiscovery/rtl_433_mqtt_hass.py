@@ -445,6 +445,17 @@ mappings = {
         }
     },
 
+
+    "light_klx": {
+        "device_type": "sensor",
+        "object_suffix": "klux",
+        "config": {
+            "name": "Outside Luminancee",
+            "unit_of_measurement": "klux",
+            "value_template": "{{ value|int }}"
+        }
+    },
+  
     "uv": {
         "device_type": "sensor",
         "object_suffix": "uv",
