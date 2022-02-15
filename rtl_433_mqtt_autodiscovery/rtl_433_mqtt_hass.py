@@ -452,7 +452,7 @@ mappings = {
         "config": {
             "name": "Outside Luminancee",
             "unit_of_measurement": "klux",
-            "value_template": "{{ value|int }}"
+            "value_template": "{{ value|float }}"
         }
     },
   
